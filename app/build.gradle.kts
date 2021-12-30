@@ -1,13 +1,14 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    id("kotlin-android")
 }
 
 android {
     compileSdk = 31
     defaultConfig {
         applicationId = "demos.${rootProject.name.replace('-', '_')}"
-        minSdk = 15
+        minSdk = 16
         targetSdk = 28
         versionCode = 1
         versionName = "1.0"
@@ -20,5 +21,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.10")
     implementation("androidx.appcompat:appcompat:1.4.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.2")
+    implementation("com.google.android.material:material:1.4.0")
     annotationProcessor("com.google.dagger:dagger-compiler:2.40.5")
 }

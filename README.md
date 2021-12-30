@@ -1,10 +1,7 @@
-Android Kotlin Hello World Project
+Android Kotlin Click to Go to Activity and Back Project
 ===========================
+
+如何点击一个button打开另一个activity并回来。
 
 Run this demo from your IDE.
 
-```
-./gradlew installDebug
-```
-
-不能成功部署，需要研究。
