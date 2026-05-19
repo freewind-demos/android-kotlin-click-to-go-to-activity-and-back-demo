@@ -1,4 +1,4 @@
-package demos
+package demos.android.kotlin.click.to.go.to.activity.and.back.demo
 
 import android.content.Intent
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package demos
+package demos.android.kotlin.click.to.go.to.activity.and.back.demo
 
 import android.os.Bundle
 import android.widget.Button
